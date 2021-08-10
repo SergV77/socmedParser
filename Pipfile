@@ -4,6 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "*"
+spacy = "*"
+pandas = "*"
+flask-bootstrap = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+streamlit = "*"
+spacy-streamlit = "*"
 
 [dev-packages]
 
