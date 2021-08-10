@@ -4,6 +4,7 @@ from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 
 
+
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
@@ -15,3 +16,5 @@ db = SQLAlchemy(app)
 bootstrap = Bootstrap(app)
 
 from app import views
+
+

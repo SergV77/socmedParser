@@ -13,15 +13,22 @@
       {{ form.text(class="form-control", placeholder="Введите текст") }}
     </div>
     <br>
-    {{ form.submit(class="btn btn-primary") }}
+    {{ form.submit(class="btn btn-info") }}
 </form>
 <br>
 <div class="page-header">
-  <h1>{% if messages %}
+  <h5>{% if text %}
         Введенный текст: <br><br>
-        {{ messages }}
+       {{ text|markdown }}
       {% endif %}
-  </h1>
+  </h5>
+<br>
+<div class="page-header">
+  <h5>{% if result %}
+        Результат анализа текста: <br><br>
+        {{ result|markdown }}
+      {% endif %}
+  </h5>
 
 </div>
 
