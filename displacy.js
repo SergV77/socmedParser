@@ -220,11 +220,3 @@ class displaCy {
         return el;
     }
 }
-
-
-displacy = displaCy('http://localhost:8000', {
-    container: '#displacy',
-    format: 'spacy',
-    distance: 300,
-    offsetX: 100
-});
