@@ -1,4 +1,4 @@
-import spacy_streamlit
+from spacy_streamlit import *
 import spacy
 from spacy_streamlit import process_text
 from spacy_streamlit import visualize_similarity
@@ -15,7 +15,7 @@ default_text = "Шаблонный текст для примера."
 
 st.title("Синтаксический разбор")
 
-spacy_streamlit.visualize(models, default_text)
+visualize(models, default_text)
 
 
 # text = st.text_area("Текст для анализа", default_text, height=200)

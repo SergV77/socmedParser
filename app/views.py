@@ -21,7 +21,8 @@ def index():
     if form.validate_on_submit():
         text = form.text.data
         doc = nlp(text)
-        html = displacy.render(doc, style="dep", options=options, page=True)
+        spans = list(doc.sents)
+        html = displacy.render(spans, style="dep", options=options, page=True)
         html = html.replace("\n\n", "\n")
         result = HTML_WRAPPER.format(html)
 
