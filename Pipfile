@@ -13,6 +13,8 @@ flask-sqlalchemy = "*"
 flask-wtf = "*"
 streamlit = "*"
 spacy-streamlit = "*"
+flask-ext = "*"
+flask-markdown = "*"
 
 [dev-packages]
 
