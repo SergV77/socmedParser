@@ -2,7 +2,6 @@
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
-url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.0.0/ru_core_news_lg-3.0.0.tar.gz#egg=ru_core_news_lg-3.0.0"
 
 
 [packages]
