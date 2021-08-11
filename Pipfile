@@ -17,6 +17,7 @@ flask-ext = "*"
 flask-markdown = "*"
 
 [dev-packages]
+python -m spacy download ru_core_news_sm
 
 [requires]
 python_version = "3.8"

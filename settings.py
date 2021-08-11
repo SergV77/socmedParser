@@ -12,3 +12,4 @@ from spacy.lang.ru import Russian
 from spacy.tokens.doc import Doc
 from spacy.vocab import Vocab
 from spacy import displacy
+import ru_core_news_lg

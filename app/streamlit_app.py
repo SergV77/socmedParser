@@ -5,6 +5,7 @@ from spacy_streamlit import visualize_similarity
 import streamlit as st
 from spacy_streamlit import load_model
 from visual import *
+import ru_core_news_lg
 
 # nlp = spacy.load("ru_core_news_lg")
 spacy_model = st.sidebar.selectbox("Model name", ["ru_core_news_lg"])
