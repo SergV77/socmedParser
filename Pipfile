@@ -16,7 +16,7 @@ flask-wtf = "*"
 streamlit = "*"
 spacy-streamlit = "*"
 flask-ext = "*"
-
+ru_core_news_lg = "*"
 
 [dev-packages]
 
