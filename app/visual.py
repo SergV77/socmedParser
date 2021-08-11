@@ -8,7 +8,7 @@ import pandas as pd
 from util import load_model, process_text, get_color_styles, get_html
 
 
-nlp = spacy.load("ru_core_news_lg")
+# nlp = spacy.load("ru_core_news_lg")
 # fmt: off
 NER_ATTRS = ["text", "label_", "start", "end", "start_char", "end_char"]
 TOKEN_ATTRS = ["idx", "text", "lemma_", "pos_", "tag_", "dep_", "head", "morph",
