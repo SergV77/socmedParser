@@ -15,10 +15,10 @@ streamlit = "*"
 spacy-streamlit = "*"
 flask-ext = "*"
 flask-markdown = "*"
-https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.0.0/ru_core_news_lg-3.0.0.tar.gz#egg=ru_core_news_lg-3.0.0
+ru-core-news-lg = "*"
+pipenv = "*"
 
 [dev-packages]
-
 
 [requires]
 python_version = "3.8"
