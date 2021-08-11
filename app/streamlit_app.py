@@ -3,16 +3,18 @@ import spacy
 from spacy_streamlit import process_text
 from spacy_streamlit import visualize_similarity
 import streamlit as st
+from spacy_streamlit import load_model
 from visual import *
 
 # nlp = spacy.load("ru_core_news_lg")
-
-models = ["ru_core_news_lg"]
+spacy_model = st.sidebar.selectbox("Model name", ["ru_core_news_lg"])
+nlp = load_model(spacy_model)
+# models = ["ru_core_news_lg"]
 default_text = "Шаблонный текст для примера."
 
 st.title("Синтаксический разбор")
 
-spacy_streamlit.visualize(models, default_text)
+spacy_streamlit.visualize(nlp, default_text)
 
 
 # text = st.text_area("Текст для анализа", default_text, height=200)
