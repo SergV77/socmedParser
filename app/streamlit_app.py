@@ -5,7 +5,7 @@ from spacy_streamlit import visualize_similarity
 import streamlit as st
 from visual import *
 
-# nlp = spacy.load("ru_core_news_lg")
+nlp = spacy.load("ru_core_news_lg")
 
 models = ["ru_core_news_lg"]
 default_text = "Шаблонный текст для примера."
