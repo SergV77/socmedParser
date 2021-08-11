@@ -16,7 +16,7 @@ spacy-streamlit = "*"
 flask-ext = "*"
 ru_core_news_lg = "*"
 pipenv = "*"
-
+ru-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.1.0/ru_core_news_lg-3.1.0-py3-none-any.whl
 [dev-packages]
 
 [requires]
