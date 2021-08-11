@@ -14,8 +14,7 @@ flask-wtf = "*"
 streamlit = "*"
 spacy-streamlit = "*"
 flask-ext = "*"
-flask-markdown = "*"
-url = https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.0.0/ru_core_news_lg-3.0.0.tar.gz#egg=ru_core_news_lg-3.0.0
+"https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.0.0/ru_core_news_lg-3.0.0.tar.gz#egg=ru_core_news_lg-3.0.0"
 
 [dev-packages]
 
