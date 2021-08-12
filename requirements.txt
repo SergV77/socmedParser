@@ -27,9 +27,11 @@ Flask==2.0.1
 Flask-Bootstrap==3.3.7.1
 Flask-Ext==0.1
 Flask-Markdown==0.3
+Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.15.1
 gitdb==4.0.7
 GitPython==3.1.18
+greenlet==1.1.1
 idna==3.2
 ipykernel==6.0.3
 ipython==7.26.0
@@ -86,6 +88,7 @@ smmap==4.0.0
 spacy==3.1.1
 spacy-legacy==3.0.8
 spacy-streamlit==1.0.1
+SQLAlchemy==1.4.22
 srsly==2.4.1
 streamlit==0.86.0
 terminado==0.10.1
